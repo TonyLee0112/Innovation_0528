@@ -1,27 +1,27 @@
-A [] a;
-B [] b;
+Tony [] a;
+Jessica [] b;
 zero zz;
 void setup() {
   size(900, 800);
-  a = new A[3]; b = new B[3];
+  a = new Tony[3]; b = new Jessica[3];
   zz = new zero(width/2,height*3/4, 200);
    
-   a[0] = new A(300,100,150);
+   a[0] = new Tony(300,100,150);
    a[0].drawFace();
    
-   a[1] = new A(300, 250,150);
+   a[1] = new Tony(300, 250,150);
    a[1].drawFace(); a[1].getolder();
    
-   a[2] = new A(300, 400,150);
+   a[2] = new Tony(300, 400,150);
    a[2].drawFace(); a[2].getolder(); a[2].getolder2();
   
-   b[0] = new B(600, 100,150);
+   b[0] = new Jessica(600, 100,150);
    b[0].drawHair();
    
-   b[1] = new B(600, 250,150);
+   b[1] = new Jessica(600, 250,150);
    b[1].drawHair(); b[1].getolder2();
    
-   b[2] = new B(600, 400,150);
+   b[2] = new Jessica(600, 400,150);
    b[2].drawHair();  b[2].getold(); b[2].getolder2();
    
    zz.drawFace();
