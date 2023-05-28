@@ -1,5 +1,5 @@
-class A extends zero{
-  A(float p, float q, float r){
+class Tony extends zero{
+  Tony(float p, float q, float r){
     super(p,q,r);
   }
   void getolder2(){
