@@ -23,18 +23,18 @@ void setup() {
   
    b[0] = new Jessica(600, 100,150);
    b[0].drawHair();
-   b[0].age = 15;
-   b[0].printage();
+   b[0].tall = 158;
+   b[0].printheight();
    
    b[1] = new Jessica(600, 250,150);
    b[1].drawHair(); b[1].getolder2();
-   b[1].age = 40;
-   b[1].printage();
+   b[1].tall = 157;
+   b[1].printheight();
    
    b[2] = new Jessica(600, 400,150);
    b[2].drawHair();  b[2].getold(); b[2].getolder2();
-   b[2].age = 75;
-   b[2].printage();
+   b[2].tall = 154;
+   b[2].printheight();
    
    zz.drawFace();
 
