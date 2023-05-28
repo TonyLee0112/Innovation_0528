@@ -1,0 +1,26 @@
+class zero {
+  zero() {   };
+  zero(float p, float q, float r) {
+    x = p;      y = q;     d = r;
+  }
+  float x, y, d;
+void drawFace() {
+    fill(255);
+    ellipse(x, y, d, d/3*2);
+    circle(x-d/5, y-d/20, d/5);
+    arc(x, y+d/10, d*2/3, d/5, 0, PI);
+    circle(x+d/5, y-d/20, d/5);
+    
+    fill(0);
+    circle(x-d/5, y-d/20, d/10);
+    circle(x+d/5, y-d/20, d/10); 
+}
+  void getolder(){ //mustache
+    fill(0,0,0);
+    arc(x, y+d/15, d*2/3, d/5, 0, PI);
+  } 
+  void getolder2(){ //forehead wrinkles
+    line(x-d/4, y-d/5, x+d/4, y-d/5);
+    line(x-d/6, y-d/4, x+d/6, y-d/4);
+  }
+}  
