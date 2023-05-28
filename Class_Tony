@@ -1,6 +1,10 @@
 class Tony extends zero{
   Tony(float p, float q, float r){
     super(p,q,r);
+  }  
+  int age = 0;
+  void printage(){
+    println(age);
   }
   void getolder2(){
     line(x-d/4, y-d/5, x+d/4, y-d/5);
