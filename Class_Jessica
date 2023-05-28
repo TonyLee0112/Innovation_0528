@@ -2,6 +2,12 @@ class Jessica extends zero{
   Jessica(float p, float q, float r){
     super(p,q,r);
   }
+  
+  float tall = 0;
+  void printheight(){
+    println(tall);
+  }
+  
   void drawHair(){   
     fill(0); 
     arc(x, y, d*6/5, d/5*4,PI,2*PI); 
